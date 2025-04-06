@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+CostosApp es una aplicación diseñada para pequeños emprendimientos gastronómicos que buscan organizar y optimizar la gestión de costos de forma sencilla y efectiva.
 
-## Getting Started
+Esta herramienta permite llevar un control detallado de los ingredientes y recetas, ayudando a calcular precios de venta adecuados y visualizar la rentabilidad de cada producto.
 
-First, run the development server:
+Funcionalidades principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ingredientes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Registrar ingredientes con unidades personalizadas (gramos, mililitros, unidades, etc).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ingresar el costo de compra y calcular automáticamente el costo por unidad.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Editar o eliminar ingredientes fácilmente.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Recetas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Crear recetas seleccionando ingredientes y cantidades.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Calcular el costo total de producción, el costo por unidad, la ganancia y el precio de venta sugerido.
 
-## Deploy on Vercel
+Ver cuántas unidades se obtienen a partir de una receta.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Guardar y editar recetas.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+Tecnologías utilizadas
+
+React para la interfaz de usuario
+
+TypeScript para mayor robustez en el código
+
+Tailwind CSS para el diseño visual
+
+(Agregar si usás alguna librería de estado, backend, etc.)
+
+
+Objetivo
+
+El objetivo de CostosApp es brindar una solución práctica y accesible para que emprendedores del rubro gastronómico puedan tomar decisiones informadas, controlar sus márgenes de ganancia y crecer de manera sustentable.
+
+
+
